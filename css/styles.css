@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+    padding-left:2rem;
+    padding-right: 2rem; 
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.rightheader{
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+.rightheader h1{
+    color:#DA0090;
+    border: 0px solid red;
+    margin-bottom:0;
+    padding-bottom:0;
+    font-size: 3rem;
+}
+
+.rightheader p{
+  
+    border: 0px solid red;
+    margin-top:0;
+   
+}
+
+nav ul{
+    list-style-type:none;
+    text-align: center;
+    border-top: 1.5px solid #DA0090;
+    border-bottom: 1.5px solid #A51F10;
+    margin-bottom: 0;
+    padding-bottom: 0.2rem;
+}
+
+nav li{
+    display: inline-block;
+    width:6rem;
+    border: 0px solid red;
+    font-size: 0.8rem;   
+ }
+
+nav a{
+    display: block;
+    color:black;
+}
+
+article img{
+    float: left;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+article{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    border: 0px solid red;
+    }
+article:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+article.art2{
+    border-bottom: 1.5px solid #DA0090;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 1.5px solid #A51F10;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+  
+}
+
+footer ul{
+    list-style-type: none;
+    border: 0px solid red;
+    margin:0;
+    padding:0; 
+}
+
+footer p{
+   border: 0px solid red;
+
+}
+footer li{
+    display: inline-block;
+    border: 0px solid red;
+  
+}
+
+footer a {
+    margin:0;
+    padding:0; 
+}
